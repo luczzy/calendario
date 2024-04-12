@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calendário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calendar.css'>
+    <link rel="stylesheet" href="styles.css">
+    <script src='cale'></script>
+    <script src='calendar.js'></script>
+</head>
+<body>
+    <h1>Calendário de Fretes</h1>
+    <table id="calendar">
+        <tbody>
+            <tr><!-- <Primeira linha  -->
+                <th class="domingo">Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sab</th>
+            </tr>
+            <tr>
+                <th class="domingo"></th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td class="domingo">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td class="domingo">14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="domingo">21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td class="domingo">28</td>
+                <td>29</td>
+                <td>30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="legend">
+        <h3>Legenda:</h3>
+        <ul>
+            <li><span class="blue"></span> Veículo 1 (Azul)</li>
+            <li><span class="green"></span> Veículo 2 (Verde)</li>
+            <li><span class="pink"></span> Veículo 3 (Rosa)</li>
+            <li><span class="purple"></span> Veículo 4 (Roxo)</li>
+        </ul>
+    </div>
+    <hr/>
+    <label for="color">Escolha uma cor:</label>
+    <select id="color" name="color">
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+        <option value="pink">Rosa</option>
+        <option value="purple">Roxo</option>
+    </select>
+    <label for="day">Escolha o dia:</label>
+    <input type="number" id="day" name="day" min="1" max="31">
+    <input type="submit" onclick="colorirDia()">
+</body>
+</html>

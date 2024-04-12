@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black; 
+    color: white; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#calendar th,
+#calendar td {
+    border: 1px solid white; 
+    padding: 10px;
+    text-align: center;
+}
+
+#calendar th {
+    background-color: #333; 
+}
+
+#calendar td {
+    background-color: #555; 
+}
+
+#legend {
+    margin-top: 20px;
+    color: white; 
+}
+
+#legend ul {
+    list-style-type: none;
+}
+
+#legend li {
+    margin-bottom: 5px;
+}
+
+#legend span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.purple {
+    background-color: purple;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: white; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+    margin-bottom: 10px;
+    background-color: #333; 
+    color: white; 
+    border: 1px solid white; 
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
