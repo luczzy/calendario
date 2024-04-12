@@ -276,6 +276,12 @@ function colorirDia() {
 * CSS3
 * JavaScript
 
+## ``Autores``
+
+* Deivid Marques
+* Ricardo Siena
+* Eric Mendes
+
 
 
 
